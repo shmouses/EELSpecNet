@@ -1,4 +1,11 @@
 import tensorflow as tf
+from keras.layers import Activation
+from keras import backend as K
+from keras.utils.generic_utils import get_custom_objects
+
+def positive_tanh(x):
+  return (K.tanh(K.relu(x) + 1e-12))
+get_custom_objects().update({'p_tanh': Activation(positive_tanh)})
 
 
 class EELSpecNetModel_CNN_10D(tf.keras.Model):
@@ -87,7 +94,7 @@ class EELSpecNetModel_CNN_10D(tf.keras.Model):
                                                               kernel_initializer='random_uniform')
 
         self.deconv_2048x1 = tf.keras.layers.Conv2DTranspose(1, (1, kerl_size), strides=(1, 2),
-                                                             activation='tanh', padding='same',
+                                                             activation='p_tanh', padding='same',
                                                              kernel_initializer='random_uniform')
 
         self.concat = tf.keras.layers.concatenate
