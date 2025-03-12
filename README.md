@@ -74,6 +74,8 @@ Detailed documentation is available in the `docs` directory:
 
 ## Technical Details
 
+> **Note on Figures**: As the author of the [open access paper published in Scientific Reports](https://www.nature.com/articles/s41598-022-22264-3) under Creative Commons Attribution 4.0 International License, I have the right to use and share these figures. All figures are from the original publication and are properly attributed.
+
 ### Background
 
 EELSpecNet addresses key challenges in hyperspectral imaging techniques, particularly in electron energy loss spectroscopy (EELS). The main challenges include:
@@ -85,6 +87,9 @@ EELSpecNet addresses key challenges in hyperspectral imaging techniques, particu
 * Strong background signal from zero-loss peak (ZLP)
 
 ### Model Architecture
+
+![EELSpecNet Architecture](assets/41598_2022_22264_Fig1_HTML.webp)
+*Figure 1: The EELSpecNet architecture showing the U-shaped convolutional neural network structure with dilated convolutions and skip connections.*
 
 The EELSpecNet architecture consists of:
 
@@ -105,6 +110,12 @@ The EELSpecNet architecture consists of:
    - Final signal reconstruction
 
 ### Experimental Results
+
+![Signal Processing Results](assets/41598_2022_22264_Fig2_HTML.webp)
+*Figure 2: Comparison of signal processing results showing (a) original signal, (b) distorted signal, and (c) EELSpecNet reconstruction.*
+
+![Performance Comparison](assets/41598_2022_22264_Fig3_HTML.webp)
+*Figure 3: Performance comparison between EELSpecNet and traditional methods, demonstrating superior noise handling and feature preservation.*
 
 Our paper demonstrates several key results:
 
@@ -165,6 +176,17 @@ EELSpecNet's capabilities have significant implications for:
 * Biosensing applications
 * High-resolution imaging
 * Plasmon-mediated therapies
+
+### Real-World Applications
+
+![Experimental Validation](assets/41598_2022_22264_Fig4_HTML.webp)
+*Figure 4: Experimental validation on real EELS data, showing the model's effectiveness in practical applications.*
+
+![Advanced Applications](assets/41598_2022_22264_Fig7_HTML.webp)
+*Figure 7: Advanced applications in spectral analysis, demonstrating the model's versatility across different experimental conditions.*
+
+![Quantitative Analysis](assets/41598_2022_22264_Fig8_HTML.webp)
+*Figure 8: Quantitative analysis of peak positions and intensities, showing the high accuracy of EELSpecNet's reconstructions.*
 
 ## Support
 
