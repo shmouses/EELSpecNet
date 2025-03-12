@@ -93,9 +93,9 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 
 If you use EELSpecNet in your research, please cite:
 
-1. Mousavi M, S. Shayan, Alexandre Pofelski, Hassan Teimoori, and Gianluigi A. Botton. "Alignment-invariant signal reality reconstruction in hyperspectral imaging using a deep convolutional neural network architecture." Scientific Reports 12, no. 1 (2022): 17462.
+1. Mousavi M, S. Shayan, Alexandre Pofelski, Hassan Teimoori, and Gianluigi A. Botton. ["Alignment-invariant signal reality reconstruction in hyperspectral imaging using a deep convolutional neural network architecture."](https://www.nature.com/articles/s41598-022-22264-3) Scientific Reports 12, no. 1 (2022): 17462.
 
-2. Mousavi M, S. Shayan, Pofelski, A., & Botton, G. (2021). Eelspecnet: Deep convolutional neural network solution for electron energy loss spectroscopy deconvolution. Microscopy and Microanalysis, 27(S1), 1626-1627.
+2. Mousavi M, S. Shayan, Pofelski, A., & Botton, G. ["Eelspecnet: Deep convolutional neural network solution for electron energy loss spectroscopy deconvolution."](https://core-cms.cambridgecore.org/core/product/23392CD0B3FBB476F734EF3382CABAA1) Microscopy and Microanalysis, 27(S1), 1626-1627 (2021).
 
 ## License
 
