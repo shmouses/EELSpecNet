@@ -117,10 +117,10 @@ The model's practical utility has been extensively validated on real experimenta
 ### Advanced Applications and Impact
 
 ![Advanced Applications](assets/41598_2022_22264_Fig7_HTML.webp)
-*Figure 7: Advanced spectral analysis applications from [Mousavi et al., 2022](https://www.nature.com/articles/s41598-022-22264-3), showing the model's versatility in handling different types of spectral data and experimental conditions.*
+*Figure 5: Advanced spectral analysis applications from [Mousavi et al., 2022](https://www.nature.com/articles/s41598-022-22264-3), showing the model's versatility in handling different types of spectral data and experimental conditions.*
 
 ![Quantitative Analysis](assets/41598_2022_22264_Fig8_HTML.webp)
-*Figure 8: Detailed quantitative analysis from [Mousavi et al., 2022](https://www.nature.com/articles/s41598-022-22264-3), demonstrating the high accuracy of peak position and intensity reconstructions across various experimental scenarios.*
+*Figure 6: Detailed quantitative analysis from [Mousavi et al., 2022](https://www.nature.com/articles/s41598-022-22264-3), demonstrating the high accuracy of peak position and intensity reconstructions across various experimental scenarios.*
 
 EELSpecNet's capabilities extend beyond basic signal reconstruction. The model has demonstrated exceptional performance in:
 
